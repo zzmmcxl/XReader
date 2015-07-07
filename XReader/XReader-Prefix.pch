@@ -1,0 +1,21 @@
+//
+//  XReader-Prefix.pch
+//  XReader
+//
+//  Created by 徐传勇 on 15/7/7.
+//  Copyright (c) 2015年 传勇徐. All rights reserved.
+//
+
+#ifndef XReader_XReader_Prefix_pch
+#define XReader_XReader_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
+#ifdef __OBJC__
+#define MAS_SHORTHAND
+#define MAS_SHORTHAND_GLOBALS
+#import "Masonry.h"
+
+#endif
