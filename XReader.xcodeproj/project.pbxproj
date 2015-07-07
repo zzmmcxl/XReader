@@ -16,6 +16,12 @@
 		6B9FDC191B4B725C00450271 /* XReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9FDC181B4B725C00450271 /* XReaderTests.m */; };
 		6B9FDC281B4B78AB00450271 /* XTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9FDC251B4B78AB00450271 /* XTableView.m */; };
 		6B9FDC291B4B78AB00450271 /* XTableViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9FDC271B4B78AB00450271 /* XTableViewAdapter.m */; };
+		6B9FDC2D1B4BAC6500450271 /* TxtReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9FDC2C1B4BAC6500450271 /* TxtReader.m */; };
+		6B9FDC311B4BB8C600450271 /* ReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9FDC301B4BB8C600450271 /* ReaderViewController.m */; };
+		6B9FDC341B4BB8DC00450271 /* ReaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9FDC331B4BB8DC00450271 /* ReaderView.m */; };
+		6B9FDC371B4BB94A00450271 /* ReaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9FDC361B4BB94A00450271 /* ReaderManager.m */; };
+		6B9FDC3B1B4BB9C600450271 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9FDC3A1B4BB9C600450271 /* Book.m */; };
+		B88BFEFB086CB8E385E9A05E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA0D0884C9F0D8004DC220D /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +52,19 @@
 		6B9FDC251B4B78AB00450271 /* XTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTableView.m; sourceTree = "<group>"; };
 		6B9FDC261B4B78AB00450271 /* XTableViewAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTableViewAdapter.h; sourceTree = "<group>"; };
 		6B9FDC271B4B78AB00450271 /* XTableViewAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTableViewAdapter.m; sourceTree = "<group>"; };
+		6B9FDC2B1B4BAC6500450271 /* TxtReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TxtReader.h; sourceTree = "<group>"; };
+		6B9FDC2C1B4BAC6500450271 /* TxtReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TxtReader.m; sourceTree = "<group>"; };
+		6B9FDC2F1B4BB8C600450271 /* ReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderViewController.h; sourceTree = "<group>"; };
+		6B9FDC301B4BB8C600450271 /* ReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderViewController.m; sourceTree = "<group>"; };
+		6B9FDC321B4BB8DC00450271 /* ReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderView.h; sourceTree = "<group>"; };
+		6B9FDC331B4BB8DC00450271 /* ReaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderView.m; sourceTree = "<group>"; };
+		6B9FDC351B4BB94A00450271 /* ReaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderManager.h; sourceTree = "<group>"; };
+		6B9FDC361B4BB94A00450271 /* ReaderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderManager.m; sourceTree = "<group>"; };
+		6B9FDC391B4BB9C600450271 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		6B9FDC3A1B4BB9C600450271 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		7760FF07878843D376AF3E7E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A2413D9393369535E28AF03A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BFA0D0884C9F0D8004DC220D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B88BFEFB086CB8E385E9A05E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +86,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2FF8C13511FC0D869B85B11E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2413D9393369535E28AF03A /* Pods.debug.xcconfig */,
+				7760FF07878843D376AF3E7E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6B9FDBF01B4B725C00450271 = {
 			isa = PBXGroup;
 			children = (
 				6B9FDBFB1B4B725C00450271 /* XReader */,
 				6B9FDC151B4B725C00450271 /* XReaderTests */,
 				6B9FDBFA1B4B725C00450271 /* Products */,
+				2FF8C13511FC0D869B85B11E /* Pods */,
+				D9A2E962A0626FDCE66D836A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				6B9FDC221B4B78AB00450271 /* Base */,
+				6B9FDC2E1B4BB8B100450271 /* Controllers */,
 				6B9FDC001B4B725C00450271 /* AppDelegate.h */,
 				6B9FDC011B4B725C00450271 /* AppDelegate.m */,
 				6B9FDC031B4B725C00450271 /* ViewController.h */,
@@ -129,6 +161,8 @@
 		6B9FDC221B4B78AB00450271 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				6B9FDC381B4BB9A900450271 /* Model */,
+				6B9FDC2A1B4BAC3900450271 /* FileReader */,
 				6B9FDC231B4B78AB00450271 /* TableView */,
 			);
 			path = Base;
@@ -145,6 +179,45 @@
 			path = TableView;
 			sourceTree = "<group>";
 		};
+		6B9FDC2A1B4BAC3900450271 /* FileReader */ = {
+			isa = PBXGroup;
+			children = (
+				6B9FDC351B4BB94A00450271 /* ReaderManager.h */,
+				6B9FDC361B4BB94A00450271 /* ReaderManager.m */,
+				6B9FDC2B1B4BAC6500450271 /* TxtReader.h */,
+				6B9FDC2C1B4BAC6500450271 /* TxtReader.m */,
+			);
+			path = FileReader;
+			sourceTree = "<group>";
+		};
+		6B9FDC2E1B4BB8B100450271 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6B9FDC2F1B4BB8C600450271 /* ReaderViewController.h */,
+				6B9FDC301B4BB8C600450271 /* ReaderViewController.m */,
+				6B9FDC321B4BB8DC00450271 /* ReaderView.h */,
+				6B9FDC331B4BB8DC00450271 /* ReaderView.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6B9FDC381B4BB9A900450271 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6B9FDC391B4BB9C600450271 /* Book.h */,
+				6B9FDC3A1B4BB9C600450271 /* Book.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D9A2E962A0626FDCE66D836A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFA0D0884C9F0D8004DC220D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B9FDC1C1B4B725C00450271 /* Build configuration list for PBXNativeTarget "XReader" */;
 			buildPhases = (
+				A04932E5CABC2FA97461928F /* Check Pods Manifest.lock */,
 				6B9FDBF51B4B725C00450271 /* Sources */,
 				6B9FDBF61B4B725C00450271 /* Frameworks */,
 				6B9FDBF71B4B725C00450271 /* Resources */,
+				A797B6EE43FC0DC5ECE7756F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -240,15 +315,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A04932E5CABC2FA97461928F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A797B6EE43FC0DC5ECE7756F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6B9FDBF51B4B725C00450271 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B9FDC3B1B4BB9C600450271 /* Book.m in Sources */,
+				6B9FDC371B4BB94A00450271 /* ReaderManager.m in Sources */,
 				6B9FDC051B4B725C00450271 /* ViewController.m in Sources */,
+				6B9FDC2D1B4BAC6500450271 /* TxtReader.m in Sources */,
 				6B9FDC291B4B78AB00450271 /* XTableViewAdapter.m in Sources */,
 				6B9FDC021B4B725C00450271 /* AppDelegate.m in Sources */,
 				6B9FDC281B4B78AB00450271 /* XTableView.m in Sources */,
+				6B9FDC341B4BB8DC00450271 /* ReaderView.m in Sources */,
+				6B9FDC311B4BB8C600450271 /* ReaderViewController.m in Sources */,
 				6B9FDBFF1B4B725C00450271 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,6 +488,7 @@
 		};
 		6B9FDC1D1B4B725C00450271 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2413D9393369535E28AF03A /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XReader/Info.plist;
@@ -385,6 +499,7 @@
 		};
 		6B9FDC1E1B4B725C00450271 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7760FF07878843D376AF3E7E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XReader/Info.plist;
@@ -446,6 +561,7 @@
 				6B9FDC1E1B4B725C00450271 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6B9FDC1F1B4B725C00450271 /* Build configuration list for PBXNativeTarget "XReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +570,7 @@
 				6B9FDC211B4B725C00450271 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
