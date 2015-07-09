@@ -6,9 +6,13 @@
 //  Copyright (c) 2015年 传勇徐. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "XTableView.h"
 
-@interface ReaderView : UIScrollView
+@interface ReaderViewCell : UITableViewCell
+
+@end
+
+@interface ReaderView : XTableView
 
 
 @end

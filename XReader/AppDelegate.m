@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ReaderViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    ReaderViewController *rootCtrl = [ReaderViewController new];
+    self.window.rootViewController = rootCtrl;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

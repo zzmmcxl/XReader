@@ -17,5 +17,5 @@
 #define MAS_SHORTHAND
 #define MAS_SHORTHAND_GLOBALS
 #import "Masonry.h"
-
+#import "ReaderManager.h"
 #endif

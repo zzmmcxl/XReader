@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B69A07B1B4E478200D534EC /* 择天记.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6B69A07A1B4E478200D534EC /* 择天记.txt */; };
+		6B69A07E1B4E74FE00D534EC /* ReaderAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B69A07D1B4E74FE00D534EC /* ReaderAdapter.m */; };
 		6B9FDBFF1B4B725C00450271 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9FDBFE1B4B725C00450271 /* main.m */; };
 		6B9FDC021B4B725C00450271 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9FDC011B4B725C00450271 /* AppDelegate.m */; };
-		6B9FDC051B4B725C00450271 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9FDC041B4B725C00450271 /* ViewController.m */; };
-		6B9FDC081B4B725C00450271 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B9FDC061B4B725C00450271 /* Main.storyboard */; };
 		6B9FDC0A1B4B725C00450271 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B9FDC091B4B725C00450271 /* Images.xcassets */; };
 		6B9FDC0D1B4B725C00450271 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B9FDC0B1B4B725C00450271 /* LaunchScreen.xib */; };
-		6B9FDC191B4B725C00450271 /* XReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9FDC181B4B725C00450271 /* XReaderTests.m */; };
 		6B9FDC281B4B78AB00450271 /* XTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9FDC251B4B78AB00450271 /* XTableView.m */; };
 		6B9FDC291B4B78AB00450271 /* XTableViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9FDC271B4B78AB00450271 /* XTableViewAdapter.m */; };
 		6B9FDC2D1B4BAC6500450271 /* TxtReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9FDC2C1B4BAC6500450271 /* TxtReader.m */; };
@@ -24,30 +23,17 @@
 		B88BFEFB086CB8E385E9A05E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA0D0884C9F0D8004DC220D /* libPods.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		6B9FDC131B4B725C00450271 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6B9FDBF11B4B725C00450271 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6B9FDBF81B4B725C00450271;
-			remoteInfo = XReader;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		6B69A07A1B4E478200D534EC /* 择天记.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "择天记.txt"; sourceTree = "<group>"; };
+		6B69A07C1B4E74FE00D534EC /* ReaderAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderAdapter.h; sourceTree = "<group>"; };
+		6B69A07D1B4E74FE00D534EC /* ReaderAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderAdapter.m; sourceTree = "<group>"; };
 		6B9FDBF91B4B725C00450271 /* XReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B9FDBFD1B4B725C00450271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B9FDBFE1B4B725C00450271 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6B9FDC001B4B725C00450271 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6B9FDC011B4B725C00450271 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6B9FDC031B4B725C00450271 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6B9FDC041B4B725C00450271 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6B9FDC071B4B725C00450271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6B9FDC091B4B725C00450271 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6B9FDC0C1B4B725C00450271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		6B9FDC121B4B725C00450271 /* XReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B9FDC171B4B725C00450271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6B9FDC181B4B725C00450271 /* XReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XReaderTests.m; sourceTree = "<group>"; };
 		6B9FDC241B4B78AB00450271 /* XTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTableView.h; sourceTree = "<group>"; };
 		6B9FDC251B4B78AB00450271 /* XTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTableView.m; sourceTree = "<group>"; };
 		6B9FDC261B4B78AB00450271 /* XTableViewAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTableViewAdapter.h; sourceTree = "<group>"; };
@@ -77,13 +63,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B9FDC0F1B4B725C00450271 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -100,7 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				6B9FDBFB1B4B725C00450271 /* XReader */,
-				6B9FDC151B4B725C00450271 /* XReaderTests */,
 				6B9FDBFA1B4B725C00450271 /* Products */,
 				2FF8C13511FC0D869B85B11E /* Pods */,
 				D9A2E962A0626FDCE66D836A /* Frameworks */,
@@ -111,7 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				6B9FDBF91B4B725C00450271 /* XReader.app */,
-				6B9FDC121B4B725C00450271 /* XReaderTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,9 +100,7 @@
 				6B9FDC2E1B4BB8B100450271 /* Controllers */,
 				6B9FDC001B4B725C00450271 /* AppDelegate.h */,
 				6B9FDC011B4B725C00450271 /* AppDelegate.m */,
-				6B9FDC031B4B725C00450271 /* ViewController.h */,
-				6B9FDC041B4B725C00450271 /* ViewController.m */,
-				6B9FDC061B4B725C00450271 /* Main.storyboard */,
+				6B69A07A1B4E478200D534EC /* 择天记.txt */,
 				6B9FDC091B4B725C00450271 /* Images.xcassets */,
 				6B9FDC0B1B4B725C00450271 /* LaunchScreen.xib */,
 				6B9FDBFC1B4B725C00450271 /* Supporting Files */,
@@ -143,23 +118,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6B9FDC151B4B725C00450271 /* XReaderTests */ = {
-			isa = PBXGroup;
-			children = (
-				6B9FDC181B4B725C00450271 /* XReaderTests.m */,
-				6B9FDC161B4B725C00450271 /* Supporting Files */,
-			);
-			path = XReaderTests;
-			sourceTree = "<group>";
-		};
-		6B9FDC161B4B725C00450271 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6B9FDC171B4B725C00450271 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		6B9FDC221B4B78AB00450271 /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,10 +131,10 @@
 		6B9FDC231B4B78AB00450271 /* TableView */ = {
 			isa = PBXGroup;
 			children = (
+				6B9FDC271B4B78AB00450271 /* XTableViewAdapter.m */,
 				6B9FDC241B4B78AB00450271 /* XTableView.h */,
 				6B9FDC251B4B78AB00450271 /* XTableView.m */,
 				6B9FDC261B4B78AB00450271 /* XTableViewAdapter.h */,
-				6B9FDC271B4B78AB00450271 /* XTableViewAdapter.m */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
@@ -199,6 +157,8 @@
 				6B9FDC301B4BB8C600450271 /* ReaderViewController.m */,
 				6B9FDC321B4BB8DC00450271 /* ReaderView.h */,
 				6B9FDC331B4BB8DC00450271 /* ReaderView.m */,
+				6B69A07C1B4E74FE00D534EC /* ReaderAdapter.h */,
+				6B69A07D1B4E74FE00D534EC /* ReaderAdapter.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -242,24 +202,6 @@
 			productReference = 6B9FDBF91B4B725C00450271 /* XReader.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6B9FDC111B4B725C00450271 /* XReaderTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6B9FDC1F1B4B725C00450271 /* Build configuration list for PBXNativeTarget "XReaderTests" */;
-			buildPhases = (
-				6B9FDC0E1B4B725C00450271 /* Sources */,
-				6B9FDC0F1B4B725C00450271 /* Frameworks */,
-				6B9FDC101B4B725C00450271 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6B9FDC141B4B725C00450271 /* PBXTargetDependency */,
-			);
-			name = XReaderTests;
-			productName = XReaderTests;
-			productReference = 6B9FDC121B4B725C00450271 /* XReaderTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -271,10 +213,6 @@
 				TargetAttributes = {
 					6B9FDBF81B4B725C00450271 = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					6B9FDC111B4B725C00450271 = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 6B9FDBF81B4B725C00450271;
 					};
 				};
 			};
@@ -292,7 +230,6 @@
 			projectRoot = "";
 			targets = (
 				6B9FDBF81B4B725C00450271 /* XReader */,
-				6B9FDC111B4B725C00450271 /* XReaderTests */,
 			);
 		};
 /* End PBXProject section */
@@ -302,16 +239,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B9FDC081B4B725C00450271 /* Main.storyboard in Resources */,
 				6B9FDC0D1B4B725C00450271 /* LaunchScreen.xib in Resources */,
 				6B9FDC0A1B4B725C00450271 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6B9FDC101B4B725C00450271 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				6B69A07B1B4E478200D534EC /* 择天记.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,44 +287,20 @@
 			files = (
 				6B9FDC3B1B4BB9C600450271 /* Book.m in Sources */,
 				6B9FDC371B4BB94A00450271 /* ReaderManager.m in Sources */,
-				6B9FDC051B4B725C00450271 /* ViewController.m in Sources */,
 				6B9FDC2D1B4BAC6500450271 /* TxtReader.m in Sources */,
 				6B9FDC291B4B78AB00450271 /* XTableViewAdapter.m in Sources */,
 				6B9FDC021B4B725C00450271 /* AppDelegate.m in Sources */,
 				6B9FDC281B4B78AB00450271 /* XTableView.m in Sources */,
+				6B69A07E1B4E74FE00D534EC /* ReaderAdapter.m in Sources */,
 				6B9FDC341B4BB8DC00450271 /* ReaderView.m in Sources */,
 				6B9FDC311B4BB8C600450271 /* ReaderViewController.m in Sources */,
 				6B9FDBFF1B4B725C00450271 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B9FDC0E1B4B725C00450271 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6B9FDC191B4B725C00450271 /* XReaderTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		6B9FDC141B4B725C00450271 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6B9FDBF81B4B725C00450271 /* XReader */;
-			targetProxy = 6B9FDC131B4B725C00450271 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		6B9FDC061B4B725C00450271 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6B9FDC071B4B725C00450271 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6B9FDC0B1B4B725C00450271 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -516,40 +422,6 @@
 			};
 			name = Release;
 		};
-		6B9FDC201B4B725C00450271 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = XReaderTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XReader.app/XReader";
-			};
-			name = Debug;
-		};
-		6B9FDC211B4B725C00450271 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = XReaderTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XReader.app/XReader";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -567,15 +439,6 @@
 			buildConfigurations = (
 				6B9FDC1D1B4B725C00450271 /* Debug */,
 				6B9FDC1E1B4B725C00450271 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6B9FDC1F1B4B725C00450271 /* Build configuration list for PBXNativeTarget "XReaderTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6B9FDC201B4B725C00450271 /* Debug */,
-				6B9FDC211B4B725C00450271 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

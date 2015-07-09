@@ -7,16 +7,38 @@
 //
 
 #import "ReaderViewController.h"
+#import "ReaderView.h"
+#import "ReaderAdapter.h"
 
-@interface ReaderViewController ()
+@interface ReaderViewController () <XTableViewAdapterDelegate>
+@property (nonatomic,strong) ReaderView *readerView;
+@property (nonatomic,strong) ReaderAdapter *readerAdapter;
 
 @end
 
 @implementation ReaderViewController
 
+- (void)loadView {
+    _readerView = [ReaderView new];
+    self.view = _readerView;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    _readerAdapter = [ReaderAdapter new];
+    _readerAdapter.delegate = self;
+    [_readerView setTableViewAdapter:_readerAdapter];
+    
+    Book *book = [Book new];
+    book.fileUrl = [[NSBundle mainBundle] pathForResource:@"择天记" ofType:@"txt"];
+    [RM openBook:book];
+//    [_readerView setWithStr:[RM getString]];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
 }
 
 - (void)didReceiveMemoryWarning {

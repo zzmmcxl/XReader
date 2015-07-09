@@ -10,6 +10,8 @@
 
 @interface TxtReader : NSObject
 
+@property (nonatomic,strong) NSArray *chaperArray;
+
 - (instancetype)initWithFile:(NSString*)file;
 - (NSString*)readFileWithRange:(NSRange)range;
 @end

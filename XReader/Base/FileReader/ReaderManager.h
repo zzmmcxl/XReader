@@ -10,8 +10,15 @@
 #import "Book.h"
 #import "TxtReader.h"
 
+#define RM [ReaderManager sharedInstance]
+
 @interface ReaderManager : NSObject
 
 @property (nonatomic,strong) TxtReader *reader;
 
++ (instancetype)sharedInstance;
+- (void)openBook:(Book*)book;
+- (NSString*)getString;
+- (NSString*)getPreString;
+- (NSString*)getNextString;
 @end
