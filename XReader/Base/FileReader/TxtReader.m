@@ -20,17 +20,20 @@
     if (self) {
         _txtString = [[NSString alloc] initWithContentsOfFile:file encoding:NSUTF8StringEncoding error:nil];
         _txtLength = [_txtString length];
-        self.chaperArray = [self chapterseaprate];
+        [self chapterseaprate];
     }
     return self;
 }
 
-- (NSArray*)chapterseaprate {
+- (void)chapterseaprate {
     NSError *error = NULL;
-    NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"(^//s*第)(.{1,9})[章节卷集部篇回](//s*)(.*)" options:NSRegularExpressionCaseInsensitive error:&error];
+//    @"\\s{1}第(.{1,9})(章|节|集|卷|部|篇|回)"
+    NSString *regexStr = @"\\s{1}第(.{1,9})(章|节|集|卷|部|篇|回)(\\s*)(.*)(\n|\r|\r\n)";
+    NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:regexStr options:NSRegularExpressionCaseInsensitive error:&error];
     NSArray *matches = [regex matchesInString:_txtString options:0 range:NSMakeRange(0, _txtLength)];
     NSUInteger lastIdx = 0;
     
+    NSMutableArray *titleArray = [NSMutableArray new];
     NSMutableArray *chapterArray = [NSMutableArray new];
     
     for (NSTextCheckingResult* match in matches) {
@@ -39,9 +42,16 @@
         {
             NSString *temp = [_txtString substringWithRange:NSMakeRange(lastIdx, range.location - lastIdx)];
             [chapterArray addObject:temp];
+            lastIdx = range.location + 1;
+            NSRange range = [temp rangeOfString:@"\\s{0}第(.{1,9})(章|节|集|卷|部|篇|回)(\\s*)(.*)" options:NSRegularExpressionSearch];
+            if (range.location != NSNotFound) {
+                NSString *title = [temp substringWithRange:range];
+                [titleArray addObject:title];
+            }
         }
     }
-    return chapterArray;
+    self.titleArray = titleArray;
+    self.chaperArray = chapterArray;
 }
 
 - (NSString*)readFileWithRange:(NSRange)range {
