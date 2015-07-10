@@ -131,10 +131,10 @@
 		6B9FDC231B4B78AB00450271 /* TableView */ = {
 			isa = PBXGroup;
 			children = (
+				6B9FDC261B4B78AB00450271 /* XTableViewAdapter.h */,
 				6B9FDC271B4B78AB00450271 /* XTableViewAdapter.m */,
 				6B9FDC241B4B78AB00450271 /* XTableView.h */,
 				6B9FDC251B4B78AB00450271 /* XTableView.m */,
-				6B9FDC261B4B78AB00450271 /* XTableViewAdapter.h */,
 			);
 			path = TableView;
 			sourceTree = "<group>";

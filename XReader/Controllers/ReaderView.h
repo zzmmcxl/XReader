@@ -9,7 +9,7 @@
 #import "XTableView.h"
 
 @interface ReaderViewCell : UITableViewCell
-
+- (void)setWithData:(id)data;
 @end
 
 @interface ReaderView : XTableView

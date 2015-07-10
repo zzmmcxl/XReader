@@ -10,8 +10,8 @@
 
 @interface TxtReader : NSObject
 
-@property (nonatomic,strong) NSArray *titleArray;
-@property (nonatomic,strong) NSArray *chaperArray;
+@property (nonatomic,strong) NSMutableArray *titleArray;
+@property (nonatomic,strong) NSMutableArray *chaperArray;
 
 - (instancetype)initWithFile:(NSString*)file;
 - (NSString*)readFileWithRange:(NSRange)range;

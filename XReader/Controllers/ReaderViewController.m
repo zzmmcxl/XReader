@@ -34,7 +34,8 @@
     Book *book = [Book new];
     book.fileUrl = [[NSBundle mainBundle] pathForResource:@"择天记" ofType:@"txt"];
     [RM openBook:book];
-//    [_readerView setWithStr:[RM getString]];
+    
+    _readerAdapter.dataArray = RM.reader.chaperArray;
 }
 
 - (void)viewDidAppear:(BOOL)animated {
